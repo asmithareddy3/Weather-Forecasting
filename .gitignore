@@ -1,0 +1,27 @@
+# Virtual Environment & Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Environment Variables
+.env
+.env.local
+.env.*
+!.env.example
+!.env.local.example
+
+# Next.js & Node
+node_modules/
+.next/
+out/
+build/
+dist/
+*.log
+
+# OS Junk
+.DS_Store
+Thumbs.db
